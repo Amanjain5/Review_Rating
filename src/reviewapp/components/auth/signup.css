@@ -1,0 +1,153 @@
+* {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(158, 30, 180, 0.8),
+    rgb(5, 5, 101, 0.8)
+  );
+  background-attachment: fixed;
+}
+
+.fullbox {
+  padding-top: 25px;
+}
+
+.box1 {
+  top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.box1 h1 {
+  margin-bottom: 20px;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.box1 h4 {
+  margin-bottom: 40px;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: x-large;
+}
+
+.box1 img {
+  width: 528px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border-radius: 18px;
+  margin: auto;
+  width: 483px;
+    height: 638px;
+    position: relative;
+    top: 18px;
+}
+
+.uspe {
+  display: flex;
+  justify-content: space-between;
+  height: 111px;
+}
+
+.uspe .ima1ge {
+  width: 135px;
+  height: 132px;
+  border-radius: 18px;
+  margin: -13px -12px;
+}
+
+.uspe h1 {
+  margin-right: 57px;
+  position: inherit;
+  line-height: 3;
+}
+
+.signup {
+  color: #7d44cf;
+}
+
+.log1in {
+  color: #7d44cf;
+}
+
+.uspe .ima2ge {
+  width: 50px;
+  height: 67px;
+  padding-top: 20px;
+  margin-right: 17px;
+  position: relative;
+    top: 5px;
+}
+
+.box2 h6 {
+  margin-top: 20px;
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.box2 form {
+  margin: 30px 50px;
+}
+
+i {
+  position: absolute;
+  padding: 17px;
+  right: 470px !important;
+}
+
+.form-control {
+  height: 40px;
+  padding-left: 40px !important;
+}
+
+.form-select {
+  height: 40px;
+  padding-left: 40px !important;
+}
+
+.forget-password {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(158, 30, 180),
+    rgb(5, 5, 101)
+  );
+  margin-top: 5px;
+  padding: 10px 50px;
+}
+
+form a {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

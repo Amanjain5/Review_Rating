@@ -1,0 +1,118 @@
+body {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(158, 30, 180, 0.8),
+      rgb(5, 5, 101, 0.8)
+    );
+    background-attachment: fixed;
+  }
+  .fullbox {
+    padding-top: 25px;
+  }
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .box1 h1 {
+    margin-bottom: 20px;
+    color: azure;
+      font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size:35px ;
+  }
+  .box1 h4 {
+    margin-bottom: 40px;
+    color: azure;
+      font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+ 
+  }
+  .box1 img {
+    width: 495px;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 440px;
+    height: 560px;
+    background-color: white;
+    border-radius: 18px;
+    margin: auto;
+  }
+  .up {
+    display: flex;
+    justify-content: space-between;
+    height: 111px;
+  }
+  .up .image1 {
+    width: 110px;
+    height:95px;
+    border-radius: 18px;
+    margin: -9px -10px;
+  }
+  .up h1 {
+    padding-top: 24px;
+    margin-right: 33px;
+  }
+  .signup{
+    color: #7d44cf;
+  }
+  .login{
+    color: #7d44cf;
+  }
+  .up .image2 {
+    width: 50px;
+    height: 65px;
+    padding-top: 20px;
+    margin-right: 10PX;
+  }
+  .box2 h6{
+  margin-top: 20px;
+  color: azure;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  }
+  .box2 form {
+    margin: 30px 50px;
+  }
+  i{
+    position: absolute;
+    padding: 17px;
+    right: 470px !important;
+  }
+  .form-control {
+    height: 40px;
+    padding-left: 40px !important;;
+  }
+  .form-select {
+    height: 40px;
+    padding-left: 40px !important;
+      
+  }
+  .forget-password{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  }
+  .btn {
+    background-image: linear-gradient(to bottom,rgb(158, 30, 180),rgb(5, 5, 101));
+    margin-top: 5px;
+    padding: 10px 65px;
+  }
+  form a{
+    color: black;
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0
+}
+  

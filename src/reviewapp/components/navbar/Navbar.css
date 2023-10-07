@@ -1,0 +1,40 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+max-width: 1500px;
+min-width: auto;
+}
+.navbar{
+    list-style-type: style type;
+    width: 100%;
+  background-color: white;
+  overflow: hidden;
+}
+.list{
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+#logo-review{
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+#logo-star{
+    width: 50px;
+    margin-left: 10px;
+}
+#home{
+    /* margin-left: 20px;
+    text-align: center; */
+    float: right;
+    color: white;
+    padding: 5px 50px;
+}
+#company{
+    /* margin-left: 20px;
+    justify-content: center; */
+    float: right;
+    color: white;
+    padding: 5px 0px;
+}

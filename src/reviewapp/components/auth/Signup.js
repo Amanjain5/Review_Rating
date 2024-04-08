@@ -66,10 +66,10 @@ const Signup = () => {
   // handle submit button function
   const handleSubmit = (values) => {
     console.log("value :", values);
-    let userobj = { ...values, profilepic: profilePic };
-    console.log("***signup data", userobj);
-    console.log("handleSubmit data", handleSubmit);
-    dispatch(signupuser(userobj));
+    // let userobj = { ...values, profilepic: profilePic };
+    // console.log("***signup data", userobj);
+    // console.log("handleSubmit data", handleSubmit);
+    dispatch(signupuser(values));
   };
 
   return (

@@ -191,6 +191,18 @@ img {
   margin-left: -45px;
 }
 
+.company-show{
+  display: flex;
+  justify-content: center;
+}
+
+.company-img{
+  width: 10rem;
+}
+.grid-company{
+  display: grid;
+}
+
 
 
 

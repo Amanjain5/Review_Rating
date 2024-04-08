@@ -17,17 +17,17 @@ const Login = () => {
  
   useEffect(() => {
     if (message) {
-      console.log(message)
+      // console.log(message)
       toast.success(message, { position: toast.POSITION.TOP_CENTER });
       navigate("/companylist");
     }
     
     if (error) {
-      console.log (error)
+      // console.log (error)
       toast.error(error, { position: toast.POSITION.TOP_CENTER });
-      console.log("Show the error",toast.error)
+      // console.log("Show the error",toast.error)
     }  
-  },[error,message]);
+  },[message,error]);
 
  //Validation starting
   const defaultValue = {
@@ -42,10 +42,10 @@ const Login = () => {
   });
 
   //submit button function
-  const handleSubmit = async (values) => {
-    console.log("value :", values);
-    const resResult = await dispatch(signInUser(values));
-    console.log('Result', resResult,)
+  const handleSubmit = (values) => {
+    // console.log("value :", values);
+    dispatch(signInUser(values));
+    // console.log('Result', resResult,)
   };
 
 

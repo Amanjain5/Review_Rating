@@ -1,11 +1,11 @@
-.container{
+.container-nav{
     margin: 0px;
     padding: 0px;
 max-width: 1500px;
 min-width: auto;
 }
 .navbar{
-    list-style-type: style type;
+    list-style-type: none;
     width: 100%;
   background-color: white;
   overflow: hidden;
@@ -14,6 +14,7 @@ min-width: auto;
     display: flex;
     float: left;
     padding: 10px;
+    list-style: none;
 }
 #logo-review{
     width: 190px;

@@ -14,7 +14,7 @@ const CompanyList = () => {
     if (localStorage.getItem("user")) {
       navigate("/");
     }
-  },[]);
+  },[navigate]);
 
   const companies = useSelector((state) => state.company);
   const { cmplist_msg, company_data, error, loading } = companies;
@@ -47,18 +47,18 @@ const CompanyList = () => {
 
         {loading && <div>A moment please....</div>}
         {error && (
-          <div> {"Their is a problem fetchng the post data - ${error}"} </div>
+          <div> {`Their is a problem fetchng the post data - ${error}`} </div>
         )}
 
-        <ul>
+        <ul className="grid-company">
           {company_data && company_data.map(
               ({_id,company_logo,companyName,location,city,founded,}) => (
 
-                <Link to={'/companydetails/${_id}'}>
+                <Link to={`/companydetails/${_id}`}>
                   <div>
-                    <div>
+                    <div className="company-show">
                       <div>
-                        <img src={'http://localhost:9000${company_logo}'}/>
+                        <img className="company-img" src={`http://localhost:9000${company_logo}`}/>
                       </div>
                       
                       <div>
@@ -67,7 +67,7 @@ const CompanyList = () => {
                         <h6> {founded} {city} </h6>     
                       </div>
                       <div>
-                        <img src='reviewnext.jpeg'/>
+                        <img src='../../assets/Review&Rate (1).png'/>
                       </div>
                     </div>
                   </div>

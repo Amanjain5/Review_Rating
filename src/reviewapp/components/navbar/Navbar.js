@@ -15,15 +15,15 @@ const NavBar = () => {
 
   return (
     <>
-        <nav className="container">
+        <nav className="container-nav">
       <div className="navbar">
           <ul className="list">
           <li>
-              <img id="logo-star" src={require("..//..//assets/Frame 6.png")} alt=""></img>
+              <img id="logo-star" src={require("../../assets/Frame 6.png")} alt=""></img>
             </li>
 
             <li>
-              <img id="logo-review" src={require("..//..//assets/Review&Rate (1).png")} alt=""></img>
+              <img id="logo-review" src={require("../../assets/Review&Rate (1).png")} alt=""></img>
             </li>
             
             <li id="home">
